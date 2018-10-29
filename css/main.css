@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Merriweather', serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 40px
+}
+
+.links {
+  display: flex;
+}
+
+h1 {
+color: #fff;
+background-color: #d05c2e;
+}
