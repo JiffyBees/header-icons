@@ -1,22 +1,90 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img {
-  width: 40px
+body {
+  margin: 0;
 }
 
-.links {
-  display: flex;
+header {
+  background-color: #d05c2e;
+}
+
+img {
+  max-width: 40px;
+}
+
+ul {
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-color: #fff;
-background-color: #d05c2e;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  align-items: center;
+  list-style-type: none;
+  font-size: 1.125rem;
+  width: 32%;
+}
+
+a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  background-color: #d05c2e;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #a63f38;
+}
+
+.bottom {
+  align-items: center;
+  text-align: center;
+  border-color: #a63f38;
+  border-top: 1px solid #d05c2e;
+}
+
+.home {
+  padding: .5em 0;
+  border-color: #a63f38;
+}
+
+.cereal {
+  padding: .5em 0;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-color: #a63f38;
+}
+
+.legumes {
+  padding: .5em 0;
+  border-color: #a63f38;
+}
+
+.top {
+  display: flex;
+  border-bottom: 1px solid;
+  border-color: #a63f38;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5em 4rem;
 }
